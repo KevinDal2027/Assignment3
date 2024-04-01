@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Pictures/KevinInitialForIcon.png">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Kevin's Gallery</title>
+</head>
+<body class = "gallery">
+    <header>
+        <h2>Kevin Quang Hao Nguyen</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li id = "buttonHome"><a href = "index.html">HOME</a></li>
+            <li id = "aboutMeButton"><a href = "aboutme.html">ABOUT ME</a></li>
+            <li id = "galleryButton"><a href = "gallery.html">GALLERY</a></li>
+            <li id = "contactButton"><a href = "contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section class = "mainContent">
+        <h3>Pictures of Nature</h3>
+        <div class="pictures">
+            <div class="pei">
+                <img src="Pictures/BeautifulSky.jpg" alt="A picture of an orange sky" width="450px" height="400px">
+                <p>Orange Sky in PEI</p>
+            </div>
+        
+            <div class="vietnam1">
+                <img src="Pictures/HanoiSwordLake.JPG" alt="A picture of the famous Sword Lake In Hanoi" width="430px"
+                    height="400px">
+                <p>Sword Lake in Hanoi, Vietnam</p>
+            </div>
+        
+            <div class="vietnam2">
+                <img src="Pictures/SungSotCave.JPG" alt="The famous cave in Hanoi, Viet Nam" width="480px" height="400px">
+                <p>Sung Sot Cave in Hanoi, Vietnam</p>
+            </div>
+        </div>
+
+        <h3>Videos of Vietnam Trip</h3>
+        <div class="videos">
+            <div class="sunrise">
+                <video width="430px" controls muted>
+                    <source src="Video/Sunrise Beach.mp4" alt="Sunrise at the Beach" type="video/mp4">
+                </video>
+                <p>Sunrise at the Beach</p>
+            </div>
+        
+            <div class="basketball-videos">
+                <video width="430px" controls muted>
+                    <source src="Video/VietnamBasketball.mov" alt="Basketball in an Arcade" type="video/mp4">
+                </video>
+                <p>Basketball in the Game Park</p>
+            </div>
+        </div>        
+    </section>
+
+    <div class="colorPallet">
+        <p>Color Palette Changer</p>
+        <section class="palletChange">
+            <button id="default" type="button">Default Palette</button>
+            <button id="blue" type="button">Blue Palette</button>
+            <button id="orange" type="button">Orange Palette</button>
+        </section>
+    </div>
+
+
+    <footer>
+        <p><strong><em>The End of Gallery Page</em></strong></p>
+    </footer>
+
+</body>
+
+<script src = "JSfiles/script.js"></script>
+
+</html>

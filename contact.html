@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "Pictures/KevinInitialForIcon.png">
+    <link rel = "stylesheet" href = "style.css">
+    <title>About Kevin</title>
+</head>
+<body class = "contactPage">
+    <header>
+        <h2>Kevin Quang Hao Nguyen</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li id = "buttonHome"><a href = "index.html">HOME</a></li>
+            <li id = "aboutMeButton"><a href = "aboutme.html">ABOUT ME</a></li>
+            <li id = "galleryButton"><a href = "gallery.html">GALLERY</a></li>
+            <li id = "contactButton"><a href = "contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section class = "contactSection">
+        <h2>--- Contact Form Template ---</h2>
+        <p>Please fill the form out so you can get the template to email me!</p>
+        <form class = "contactForm">
+            <label>Full Name:</label><br>
+            <input type = "name" class = "name" placeholder="Your Full Name">
+            <br>
+            <label>Dal Email:</label><br>
+            <input type = "email" class = "email" placeholder="yourDalEmail@dal.ca">
+            <br>
+            <label>Phone Number:</label><br>
+            <input type = "number" class = "phone" placeholder="0000000000">
+            <br>
+            <label>Postal Code:</label><br>
+            <input type = "text" class = "code" placeholder="A0A0A0">
+            <br>
+            <label>Contact Message:</label><br>
+            <input type = "text" class = "contMessage" placeholder="Reason you are reaching out (Under 400 letters)">
+            <p>- - - - - - - - - - -</p>
+            <div class = "message"></div>
+            <p>- - - - - - - - - - -</p>
+        </form>
+        <button id = "validateButton" type = "button">Validate</button>
+        <button class = "submit" type ="submit">Submit</button>
+    </section>
+
+    <p>Color Pallet Changer</p>
+    <section class = "palletChange">
+        <button id = "default" type = "button">Default Pallet</button>
+        <button id = "blue" type = "button">Blue Pallet</button>
+        <button id = "orange" type = "button">Orange Pallet</button>
+    </section>
+    
+    <footer>
+        <p><strong><em>The End of Contact Page</em></strong></p>
+    </footer>
+</body>
+
+<script src = "JSfiles/script.js"></script>
+<script src = "JSfiles/contactScript.js"></script>
+
+</html>
